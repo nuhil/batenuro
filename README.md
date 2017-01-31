@@ -1,2 +1,1 @@
-# batenuro
-Static Website for Dr. M A Baten
+Visit: http://www.batenuro.com
