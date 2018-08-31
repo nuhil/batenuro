@@ -24,6 +24,9 @@
 
     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
+    
+    <!-- Infinite Gallary -->
+    <link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -258,6 +261,40 @@
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                     <p><a href="mailto:batenuro@gmail.com">batenuro@gmail.com</a></p>
                 </div>
+                
+                <div id="infinite-gallery" style="display:none;">
+                    <a href="http://unitegallery.net">
+                    <img alt="Lemon Slice"
+                         src="images/thumbs/tile1.jpg"
+                         data-image="images/big/tile1.jpg"
+                         data-description="This is a Lemon Slice"
+                         style="display:none">
+                    </a>
+
+                    <a href="http://unitegallery.net">
+                    <img alt="Peppers"
+                         src="images/thumbs/tile2.jpg"
+                         data-image="images/big/tile2.jpg"
+                         data-description="Those are peppers"
+                         style="display:none">
+                    </a>
+
+                    <a href="http://unitegallery.net">
+                    <img alt="Keys"
+                         src="images/thumbs/tile3.jpg"
+                         data-image="images/big/tile3.jpg"
+                         data-description="Those are keys"
+                         style="display:none">
+                    </a>
+
+                    <a href="http://unitegallery.net">
+                    <img alt="Friuts in cup"
+                         src="images/thumbs/tile4.jpg"
+                         data-image="images/big/tile4.jpg"
+                         data-description="Those are friuts in a cup"
+                         style="display:none">
+                    </a>
+                </div>                
             </div>
         </div>
     </section>
@@ -275,6 +312,18 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
+    
+    <!-- Infinite Gallery -->
+    <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>
+    <script type='text/javascript' src='unitegallery/themes/carousel/ug-theme-carousel.js'></script>
+    
+    <script type="text/javascript">
+		jQuery(document).ready(function(){
+
+			jQuery("#infinite-gallery").unitegallery();
+
+		});
+	</script>
 
 </body>
 
